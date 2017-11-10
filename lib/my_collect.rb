@@ -5,5 +5,4 @@ def my_collect(student_course)
       collection<< yield (student_course[i])
       i += 1
     end
-    collection
 end
