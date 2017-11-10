@@ -1,12 +1,11 @@
 def my_collect(student_course)
     i = 0
+    collection = []
     while i < student_course.length
-       yield (student_course[i])
+       collection << yield (student_course[i])
       i += 1
     end
+    collection
 end
 
-collection = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(collection) do |lang|
-  lang.upcase
-end
+
