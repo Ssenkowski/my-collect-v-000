@@ -6,4 +6,4 @@ def my_collect(student_course)
     end
 end
 
-collection
+collection(["Tim Jones", "Tom Smith", "Jim Campagno"]) {|name| puts "#{name}"}
