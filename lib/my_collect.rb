@@ -5,4 +5,3 @@ def my_collect(student_course)
       i += 1
     end
 end
-
